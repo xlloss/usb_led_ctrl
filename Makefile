@@ -1,5 +1,5 @@
-SUBDIR = dnw_src secbulk_driver
-APP ?= dnw
+SUBDIR = usb_led_cmd_tool  usb_led_driver
+APP ?= usb_led_cmd
 
 all:
 	for i in ${SUBDIR} ; do \
